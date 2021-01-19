@@ -30,15 +30,15 @@ boolean instructions = false;
 void setup() {
   size(1200, 700);
   background(255);
-  font = loadFont("CourierNewPSMT-24.vlw");
+  font = loadFont("data/CourierNewPSMT-24.vlw");
   textFont(font);
-  img = loadImage("eye.png");
-  img2 = loadImage("restart.png");
-  img3 = loadImage("color.png");
-  img4 = loadImage("black.png");
-  img5 = loadImage("instruction.png");
-  img6 = loadImage("girl.tif");
-  img7 = loadImage("eyedropper.png");
+  img = loadImage("data/eye.png");
+  img2 = loadImage("data/restart.png");
+  img3 = loadImage("data/color.png");
+  img4 = loadImage("data/black.png");
+  img5 = loadImage("data/instruction.png");
+  img6 = loadImage("data/girl.tif");
+  img7 = loadImage("data/eyedropper.png");
   drawFrame();
 }
 
