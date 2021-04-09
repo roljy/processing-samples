@@ -42,7 +42,7 @@ void setup() {
 
     keys = new boolean[4];
 
-    background = loadImage("gradient.png");
+    background = loadImage("snowman/daniel_snowmanProj23/data/gradient.png");
     image(background, 0, 0);
 }
 

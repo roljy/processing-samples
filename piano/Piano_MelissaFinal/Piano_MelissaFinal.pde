@@ -26,17 +26,17 @@ void setup() {
   size(800, 850); 
   smooth(); 
   
-  imgmaryb = loadImage("Maryb.png"); 
-  imgbellsb = loadImage("Bellsb.gif");
+  imgmaryb = loadImage("piano/Piano_MelissaFinal/data/Maryb.png"); 
+  imgbellsb = loadImage("piano/Piano_MelissaFinal/data/Bellsb.gif");
   
-  C = new SoundFile(this, "c4.mp3");
-  D = new SoundFile(this, "d4.mp3");
-  E = new SoundFile(this, "e4.mp3");
-  F = new SoundFile(this, "f4.mp3");
-  G = new SoundFile(this, "g4.mp3");
-  A = new SoundFile(this, "a5.mp3");
-  B = new SoundFile(this, "b5.mp3");
-  Z = new SoundFile(this, "c5.mp3");
+  C = new SoundFile(this, "piano/Piano_MelissaFinal/data/c4.mp3");
+  D = new SoundFile(this, "piano/Piano_MelissaFinal/data/d4.mp3");
+  E = new SoundFile(this, "piano/Piano_MelissaFinal/data/e4.mp3");
+  F = new SoundFile(this, "piano/Piano_MelissaFinal/data/f4.mp3");
+  G = new SoundFile(this, "piano/Piano_MelissaFinal/data/g4.mp3");
+  A = new SoundFile(this, "piano/Piano_MelissaFinal/data/a5.mp3");
+  B = new SoundFile(this, "piano/Piano_MelissaFinal/data/b5.mp3");
+  Z = new SoundFile(this, "piano/Piano_MelissaFinal/data/c5.mp3");
   C.play();
   D.play();
   E.play();
@@ -45,12 +45,12 @@ void setup() {
   A.play();
   B.play();
   Z.play();
-  H = new SoundFile(this, "c-4.mp3");
-  I = new SoundFile(this, "d-4.mp3");
-  J = new SoundFile(this, "f-4.mp3");
-  K = new SoundFile(this, "g-4.mp3");
-  L = new SoundFile(this, "a-4.mp3");
-  M = new SoundFile(this, "c-5.mp3");
+  H = new SoundFile(this, "piano/Piano_MelissaFinal/data/c-4.mp3");
+  I = new SoundFile(this, "piano/Piano_MelissaFinal/data/d-4.mp3");
+  J = new SoundFile(this, "piano/Piano_MelissaFinal/data/f-4.mp3");
+  K = new SoundFile(this, "piano/Piano_MelissaFinal/data/g-4.mp3");
+  L = new SoundFile(this, "piano/Piano_MelissaFinal/data/a-4.mp3");
+  M = new SoundFile(this, "piano/Piano_MelissaFinal/data/c-5.mp3");
   H.play();
   I.play();
   J.play();
@@ -59,7 +59,7 @@ void setup() {
   M.play();
   
   
-  font=loadFont("TimesNewRomanPSMT-48.vlw");
+  font=loadFont("piano/Piano_MelissaFinal/data/TimesNewRomanPSMT-48.vlw");
   
   textFont(font);
   
