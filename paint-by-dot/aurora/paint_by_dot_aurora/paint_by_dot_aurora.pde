@@ -30,15 +30,15 @@ boolean instructions = false;
 void setup() {
   size(1200, 700);
   background(255);
-  font = loadFont("data/CourierNewPSMT-24.vlw");
+  font = loadFont("paint-by-dot/aurora/paint_by_dot_aurora/data/CourierNewPSMT-24.vlw");
   textFont(font);
-  img = loadImage("data/eye.png");
-  img2 = loadImage("data/restart.png");
-  img3 = loadImage("data/color.png");
-  img4 = loadImage("data/black.png");
-  img5 = loadImage("data/instruction.png");
-  img6 = loadImage("data/girl.tif");
-  img7 = loadImage("data/eyedropper.png");
+  img = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/eye.png");
+  img2 = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/restart.png");
+  img3 = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/color.png");
+  img4 = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/black.png");
+  img5 = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/instruction.png");
+  img6 = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/girl.tif");
+  img7 = loadImage("paint-by-dot/aurora/paint_by_dot_aurora/data/eyedropper.png");
   drawFrame();
 }
 
