@@ -8,6 +8,8 @@ This program is my own work - A.S. */
 
 //PRESS HELP FOR INSTRUCTIONS
 
+@pjs preload="data/eye.png","data/restart.png","data/color.png","data/black.png","data/instruction.png","data/girl.tif","data/eyedropper.png";
+
 int x = 10;
 int y = 255;
 PFont font;
@@ -32,13 +34,13 @@ void setup() {
   background(255);
   font = loadFont("paint-by-dot/paint_by_dot_aurora/data/CourierNewPSMT-24.vlw");
   textFont(font);
-  img = loadImage("paint-by-dot/paint_by_dot_aurora/data/eye.png");
-  img2 = loadImage("paint-by-dot/paint_by_dot_aurora/data/restart.png");
-  img3 = loadImage("paint-by-dot/paint_by_dot_aurora/data/color.png");
-  img4 = loadImage("paint-by-dot/paint_by_dot_aurora/data/black.png");
-  img5 = loadImage("paint-by-dot/paint_by_dot_aurora/data/instruction.png");
-  img6 = loadImage("paint-by-dot/paint_by_dot_aurora/data/girl.tif");
-  img7 = loadImage("paint-by-dot/paint_by_dot_aurora/data/eyedropper.png");
+  img = loadImage("data/eye.png");
+  img2 = loadImage("data/restart.png");
+  img3 = loadImage("data/color.png");
+  img4 = loadImage("data/black.png");
+  img5 = loadImage("data/instruction.png");
+  img6 = loadImage("data/girl.tif");
+  img7 = loadImage("data/eyedropper.png");
   drawFrame();
 }
 
