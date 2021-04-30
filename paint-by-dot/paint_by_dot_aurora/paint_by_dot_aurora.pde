@@ -37,7 +37,7 @@ void setup() {
   img3 = loadImage("paint-by-dot/paint_by_dot_aurora/data/color.png");
   img4 = loadImage("paint-by-dot/paint_by_dot_aurora/data/black.png");
   img5 = loadImage("paint-by-dot/paint_by_dot_aurora/data/instruction.png");
-  img6 = loadImage("paint-by-dot/paint_by_dot_aurora/data/girl.tif");
+  img6 = loadImage("paint-by-dot/paint_by_dot_aurora/data/girl.png");
   img7 = loadImage("paint-by-dot/paint_by_dot_aurora/data/eyedropper.png");
   drawFrame();
 }
