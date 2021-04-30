@@ -1,3 +1,5 @@
+/* @pjs preload="data/eye.png","data/restart.png","data/color.png","data/black.png","data/instruction.png","data/girl.tif","data/eyedropper.png"; */
+
 /* ***********************************************************************
 Aurora Shi
 Assignment 2 - Paint by Dot
@@ -7,8 +9,6 @@ Completed October 20, 2020
 This program is my own work - A.S. */
 
 //PRESS HELP FOR INSTRUCTIONS
-
-@pjs preload="data/eye.png","data/restart.png","data/color.png","data/black.png","data/instruction.png","data/girl.tif","data/eyedropper.png";
 
 int x = 10;
 int y = 255;
