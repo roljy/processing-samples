@@ -1,11 +1,3 @@
-/* @pjs preload="paint-by-dot/paint_by_dot_aurora/data/eye.png",\
-"paint-by-dot/paint_by_dot_aurora/data/restart.png",\
-"paint-by-dot/paint_by_dot_aurora/data/color.png",\
-"paint-by-dot/paint_by_dot_aurora/data/black.png",\
-"paint-by-dot/paint_by_dot_aurora/data/instruction.png",\
-"paint-by-dot/paint_by_dot_aurora/data/girl.tif",\
-"paint-by-dot/paint_by_dot_aurora/data/eyedropper.png"; */
-
 /* ***********************************************************************
 Aurora Shi
 Assignment 2 - Paint by Dot
