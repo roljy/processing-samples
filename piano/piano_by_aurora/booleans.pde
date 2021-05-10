@@ -1,0 +1,36 @@
+boolean button;
+boolean button2;
+boolean button3;
+boolean button4;
+boolean button5;
+boolean button6;
+boolean start1= true;
+boolean piano1= false;
+
+boolean c4b = true;
+boolean d4b = true;
+boolean e4b = true;
+boolean f4b = true;
+boolean g4b = true;
+boolean a4b = true;
+boolean b4b = true;
+boolean c3b = true;
+boolean d3b = true;
+boolean e3b = true;
+boolean f3b = true;
+boolean g3b = true;
+boolean a3b = true;
+boolean b3b = true;
+boolean as4b = true;
+boolean cs4b = true;
+boolean ds4b = true;
+boolean fs4b = true;
+boolean gs4b = true;
+boolean cs3b = true;
+boolean ds3b = true;
+boolean fs3b = true;
+boolean gs3b = true;
+boolean as3b = true;
+
+float y = 1.0;
+float x = 1;
